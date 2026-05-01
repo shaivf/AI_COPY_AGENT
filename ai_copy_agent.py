@@ -4,7 +4,7 @@ import random
 import pandas as pd
 
 # 配置你的 OpenAI API Key
-openai.api_key = "YOUR_API_KEY"
+openai.api_key = "你的API"
 
 def generate_copy(theme: str, num_variants: int = 50) -> list:
     """
